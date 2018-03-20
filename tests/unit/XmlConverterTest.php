@@ -3,10 +3,10 @@
 namespace Graze\XmlUtils\Tests\Unit;
 
 use Graze\XmlUtils\XmlConverter;
-use PHPUnit\Framework\TestCase;
+use PHPUnit_Framework_TestCase;
 use SimpleXMLElement;
 
-class XmlConverterTest extends TestCase
+class XmlConverterTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @return mixed[]

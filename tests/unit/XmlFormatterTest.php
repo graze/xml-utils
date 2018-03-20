@@ -3,9 +3,9 @@
 namespace Graze\XmlUtils\Tests\Unit;
 
 use Graze\XmlUtils\XmlFormatter;
-use PHPUnit\Framework\TestCase;
+use PHPUnit_Framework_TestCase;
 
-class XmlFormatterTest extends TestCase
+class XmlFormatterTest extends PHPUnit_Framework_TestCase
 {
     public function testFormat()
     {
